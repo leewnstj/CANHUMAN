@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class MovementScripts : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] private float dbjafhakfhkfspeed;
+    [SerializeField] private float dbjafhakfhkfspeeasfasfd;
+    [SerializeField] private float dbjafhakfhkfspedsfdsfed;
 
     private void Update()
     {
-        float x = Input.GetAxisRaw("Horizontal");
+        float xskjfhaskufoasfyi = Input.GetAxisRaw("Horizontal");
     }
 }
