@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 1558616207
+    locked: 0
+  - name: Under
+    uniqueID: 2529469787
+    locked: 0
+  - name: Agent
+    uniqueID: 235985511
+    locked: 0
+  - name: Top
+    uniqueID: 3650380565
+    locked: 0
