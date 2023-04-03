@@ -6,7 +6,7 @@ using UnityEngine;
 public class MovementScripts : MonoBehaviour
 {
     [SerializeField] private float _speed;
-        [SerializeField] private float dbjafhakfhkfspeed;
+    [SerializeField] private float dbjafhakfhkfspeed;
     [SerializeField] private float dbjafhakfhkfspeeasfasfd;
     [SerializeField] private float dbjafhakfhkfspedsfdsfed;
     int dsfsfda;
