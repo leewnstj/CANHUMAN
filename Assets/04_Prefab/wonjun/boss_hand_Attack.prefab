@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3742172525719731039}
   - component: {fileID: 8770995592252388674}
   - component: {fileID: 7694920448309743495}
+  - component: {fileID: -4689467381032276902}
   m_Layer: 0
   m_Name: boss_hand_Attack
   m_TagString: Untagged
@@ -73,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 235985511
+  m_SortingLayer: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: -1639739093, guid: 64a54289c23d4654e97b29c8083769bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -158,3 +159,15 @@ PolygonCollider2D:
       - {x: -1.7633555, y: -2.427051}
       - {x: 1.7633561, y: -2.4270508}
       - {x: 2.8531694, y: 0.92705137}
+--- !u!114 &-4689467381032276902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3742172525719730848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c904690c926dfc4cb406bbef67e7d52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

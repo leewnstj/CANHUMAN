@@ -1,13 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.EditorTools;
 using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
     [SerializeField]
     private float _bossHp = 500f;
+    [SerializeField]
+    public GameObject a;
 
+    [SerializeField]
+    private string BossHand;
     [SerializeField]
     private Transform _trm;
     public GameObject _handAttack;
@@ -15,7 +20,7 @@ public class Boss : MonoBehaviour
 
     private void Awake()
     {
-        _trm = GetComponentInChildren<Transform>();
+        _trm = GameObject.Find("AttackPos").transform;
     }
 
     private void Start()
@@ -25,7 +30,13 @@ public class Boss : MonoBehaviour
 
     IEnumerator HandAttack()
     {
-        Instantiate(_handAttack, _trm.position, Quaternion.identity);
-        yield return new WaitForSeconds(attackcool);
+        while (true)
+        {
+            a = PoolList.instance.Pop(BossHand, _trm.position);
+            yield return new WaitForSeconds(attackcool);
+        }
+        
     }
+
+    
 }
