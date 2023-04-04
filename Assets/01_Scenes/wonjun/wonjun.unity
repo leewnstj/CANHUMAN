@@ -304,7 +304,7 @@ MonoBehaviour:
   pools:
   - key: BossHand
     poolCount: 5
-    obj: {fileID: 0}
+    obj: {fileID: 3742172525719730848, guid: 5703bf943d408fd4db057211b3bacbcd, type: 3}
 --- !u!4 &1139630455
 Transform:
   m_ObjectHideFlags: 0
@@ -540,6 +540,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bossHp: 500
+  a: {fileID: 0}
+  BossHand: BossHand
   _trm: {fileID: 623231875}
   _handAttack: {fileID: 3742172525719730848, guid: 5703bf943d408fd4db057211b3bacbcd, type: 3}
   attackcool: 10
