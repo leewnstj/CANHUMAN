@@ -11,5 +11,6 @@ public class IdleAction : AIAction
     public override void TakeAction()
     {
         Debug.Log("IDLE");
+        _brain._rigid.velocity = Vector3.zero;
     }
 }

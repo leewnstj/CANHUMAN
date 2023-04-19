@@ -5,6 +5,7 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class ChaseAction : AIAction
 {
+    [SerializeField] AnimationHash _animHash;
     protected override void Awake()
     {
         base.Awake();
@@ -14,5 +15,6 @@ public class ChaseAction : AIAction
     {
         Debug.Log("CHASE");
         _brain.SetDestination(_brain.TargetTrm.position - transform.position);
+        _animHash.WalkEnemyAnim(true);
     }
 }
