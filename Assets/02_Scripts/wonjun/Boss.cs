@@ -20,7 +20,7 @@ public class Boss : MonoBehaviour
 
     private void Awake()
     {
-        _trm = GameObject.Find("AttackPos").transform;
+        _trm = GameObject.Find("RattackPos").transform;
     }
 
     private void Start()
